@@ -41,3 +41,13 @@ jobs:
             git commit -m "Update index"
             git push
           fi
+
+      # Small per-build tables for the website's in-browser crash viewer
+      - name: Build symbol tables
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q binutils-mingw-w64-i686
+          bash tables.sh

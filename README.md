@@ -23,3 +23,7 @@ The symbols only match the exact exe they were built with. A local or self-built
    `0x400000` is the default image base; check it with `objdump -p keeperfx.exe.debug | grep ImageBase`.
 
 The `keeperfx.map` file shipped with each build gives function names too, without line numbers.
+
+## Symbol tables for the website
+
+The `tables` branch holds a small `<build>.sym.gz` per build (functions, source lines and the commit it was built from), made by `make_table.py`. The crash report page on keeperfx.net fetches these from raw.githubusercontent.com to explain crash dumps in the browser. The branch is rewritten on each update, so don't base anything on it.
