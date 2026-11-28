@@ -352,3 +352,4 @@ run_id	created	artifact	release	asset
 45727673006	2026-11-26T00:17:29Z	keeperfx-1_4_0_5636-Alpha-patch-symbols	symbols-2026-11	keeperfx-1_4_0_5636-Alpha.exe.debug.xz
 45840214069	2026-11-26T14:33:30Z	keeperfx-linux_x86_64-1_4_0_5637-Alpha-patch-symbols	-	-
 46062823206	2026-11-27T20:19:18Z	keeperfx-1_4_0_5638-Alpha-patch-symbols	symbols-2026-11	keeperfx-1_4_0_5638-Alpha.exe.debug.xz
+46079108374	2026-11-27T22:51:15Z	keeperfx-linux_x86_64-1_4_0_5639-Alpha-patch-symbols	-	-
